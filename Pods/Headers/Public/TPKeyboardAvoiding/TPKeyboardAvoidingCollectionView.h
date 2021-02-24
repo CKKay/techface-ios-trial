@@ -1,0 +1,5 @@
+XSym
+0081
+fd665dd3d48893b7154f45f4e46aa47b
+../../../TPKeyboardAvoiding/TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

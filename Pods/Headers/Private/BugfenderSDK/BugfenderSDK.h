@@ -1,0 +1,5 @@
+XSym
+0036
+835c9fde87291c62925221a82ab470c9
+../../../BugfenderSDK/BugfenderSDK.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

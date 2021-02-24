@@ -1,0 +1,5 @@
+XSym
+0058
+a579d1a94f7512c4c739bb46ab0b95e2
+../../../BugfenderSDK/BFUserFeedbackNavigationController.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

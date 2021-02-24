@@ -1,0 +1,5 @@
+XSym
+0048
+8faad76c8ba87df9e1989ad7ea18a60c
+../../../BDCamera/BDCamera/Views/BDLivePreview.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

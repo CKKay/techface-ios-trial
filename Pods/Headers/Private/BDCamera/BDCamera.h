@@ -1,0 +1,5 @@
+XSym
+0037
+e3eab233fbc557b899ac6c4f72777977
+../../../BDCamera/BDCamera/BDCamera.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

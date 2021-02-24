@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gxF-Lw-dpI">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Compare Images View Controller-->
+        <scene sceneID="mvt-Bf-A8B">
+            <objects>
+                <viewController id="gxF-Lw-dpI" customClass="CompareImagesViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IGM-Om-xId">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="WbB-8f-teX">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Utq-XQ-yrZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="238" height="320"/>
+                                        <connections>
+                                            <segue destination="zOU-Ar-2MT" kind="embed" identifier="Embed Prev Image" id="dTu-Gh-ALN"/>
+                                        </connections>
+                                    </containerView>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJK-oh-nk0">
+                                        <rect key="frame" x="242" y="0.0" width="238" height="320"/>
+                                        <connections>
+                                            <segue destination="zOU-Ar-2MT" kind="embed" identifier="Embed Next Image" id="0N3-he-h0z"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="206-Mk-nQ1">
+                                <rect key="frame" x="4" y="4" width="36" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="n1O-zw-2gw"/>
+                                    <constraint firstAttribute="height" constant="36" id="ziI-4a-JK7"/>
+                                </constraints>
+                                <state key="normal" image="close_button"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="gxF-Lw-dpI" eventType="touchUpInside" id="g2a-Wz-G4v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NVK-oY-hgA" firstAttribute="bottom" secondItem="WbB-8f-teX" secondAttribute="bottom" id="FiS-94-h4L"/>
+                            <constraint firstItem="206-Mk-nQ1" firstAttribute="leading" secondItem="NVK-oY-hgA" secondAttribute="leading" constant="4" id="GPo-pT-iJD"/>
+                            <constraint firstItem="WbB-8f-teX" firstAttribute="top" secondItem="NVK-oY-hgA" secondAttribute="top" id="MEu-7G-ZuG"/>
+                            <constraint firstItem="NVK-oY-hgA" firstAttribute="trailing" secondItem="WbB-8f-teX" secondAttribute="trailing" id="b77-J6-vYZ"/>
+                            <constraint firstItem="206-Mk-nQ1" firstAttribute="top" secondItem="NVK-oY-hgA" secondAttribute="top" constant="4" id="k15-7I-hbF"/>
+                            <constraint firstItem="WbB-8f-teX" firstAttribute="leading" secondItem="NVK-oY-hgA" secondAttribute="leading" id="wNU-Uf-hc1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NVK-oY-hgA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nEc-uU-CBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026.358695652174" y="111.59420289855073"/>
+        </scene>
+        <!--Pinch Image View Controller-->
+        <scene sceneID="Unc-gV-B0t">
+            <objects>
+                <viewController id="zOU-Ar-2MT" customClass="PinchImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uq8-tT-nwc">
+                        <rect key="frame" x="0.0" y="0.0" width="238" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acb-gC-WIc">
+                                <rect key="frame" x="0.0" y="0.0" width="238" height="320"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eyG-et-lMX">
+                                        <rect key="frame" x="0.0" y="0.0" width="238" height="320"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="eyG-et-lMX" secondAttribute="trailing" id="0FZ-ck-5g3"/>
+                                    <constraint firstItem="eyG-et-lMX" firstAttribute="width" secondItem="acb-gC-WIc" secondAttribute="width" placeholder="YES" id="1sC-uf-Ze2"/>
+                                    <constraint firstItem="eyG-et-lMX" firstAttribute="height" secondItem="acb-gC-WIc" secondAttribute="height" placeholder="YES" id="aO1-Dz-aYd"/>
+                                    <constraint firstAttribute="bottom" secondItem="eyG-et-lMX" secondAttribute="bottom" id="aih-Xb-8ec"/>
+                                    <constraint firstItem="eyG-et-lMX" firstAttribute="leading" secondItem="acb-gC-WIc" secondAttribute="leading" id="hNr-oo-tVF"/>
+                                    <constraint firstItem="eyG-et-lMX" firstAttribute="top" secondItem="acb-gC-WIc" secondAttribute="top" id="uh5-16-Wqx"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="zOU-Ar-2MT" id="4k0-2K-Azc"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="acb-gC-WIc" firstAttribute="top" secondItem="uq8-tT-nwc" secondAttribute="top" id="6f5-Hb-1EW"/>
+                            <constraint firstAttribute="trailing" secondItem="acb-gC-WIc" secondAttribute="trailing" id="MSA-95-ao1"/>
+                            <constraint firstItem="acb-gC-WIc" firstAttribute="height" secondItem="uq8-tT-nwc" secondAttribute="height" id="PUU-Lj-6fD"/>
+                            <constraint firstItem="acb-gC-WIc" firstAttribute="leading" secondItem="uq8-tT-nwc" secondAttribute="leading" id="V5R-dv-0t5"/>
+                            <constraint firstItem="acb-gC-WIc" firstAttribute="width" secondItem="uq8-tT-nwc" secondAttribute="width" id="aBh-IW-Khk"/>
+                            <constraint firstAttribute="bottom" secondItem="acb-gC-WIc" secondAttribute="bottom" id="nb6-rA-xP1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fpi-fX-W2o"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="eyG-et-lMX" id="bId-IT-OyJ"/>
+                        <outlet property="scrollView" destination="acb-gC-WIc" id="6yG-sj-Jra"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kuo-UX-Lr3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1601" y="111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close_button" width="50" height="50"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0N3-he-h0z"/>
+    </inferredMetricsTieBreakers>
+</document>
