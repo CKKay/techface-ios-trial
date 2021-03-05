@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CD84E2A48C9419680F1D23 /* libPods-Tech Face Pro Trial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5453F04452C26A18A5BB1C /* libPods-Tech Face Pro Trial.a */; };
+		3F3754A3238D30E600D185E4 /* CameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3754A2238D30E600D185E4 /* CameraGridView.m */; };
+		527244EA22C6218D0068E92A /* CreatePractitionerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527244E922C6218D0068E92A /* CreatePractitionerViewController.m */; };
+		527244ED22C621A30068E92A /* ConfirmPractitionerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527244EC22C621A30068E92A /* ConfirmPractitionerViewController.m */; };
+		5281FFC6227816C600DFB1B6 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281FFC5227816C600DFB1B6 /* Server.m */; };
+		528CB56022AB910C00F4CE7C /* UIImageView+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 528CB55F22AB910C00F4CE7C /* UIImageView+Extended.m */; };
+		528CB56722ABB92C00F4CE7C /* CompareImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528CB56622ABB92C00F4CE7C /* CompareImagesViewController.m */; };
+		528CB56A22ABC4D500F4CE7C /* CompareNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528CB56922ABC4D500F4CE7C /* CompareNavigationController.m */; };
+		528CB56D22ABD06700F4CE7C /* PinchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528CB56C22ABD06700F4CE7C /* PinchImageViewController.m */; };
+		5298389922BA6BA900963357 /* DFBlunoManager+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 5298389822BA6BA900963357 /* DFBlunoManager+Extended.m */; };
+		5298389C22BA6E0200963357 /* NSData+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 5298389B22BA6E0200963357 /* NSData+Extended.m */; };
+		52C69AD322A7DF0B00A9B7CB /* RoundCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C69AD222A7DF0B00A9B7CB /* RoundCornerView.m */; };
+		52DC13EB22A7B64900C9FC71 /* HomeCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DC13EA22A7B64900C9FC71 /* HomeCaptureViewController.m */; };
+		52DC13EF22A7D42000C9FC71 /* RoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DC13EE22A7D42000C9FC71 /* RoundImageView.m */; };
+		52DFB9A522B3344F00B007B9 /* UIImage+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFB9A422B3344F00B007B9 /* UIImage+Extended.m */; };
+		52DFB9A822B340E300B007B9 /* NSDate+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFB9A722B340E300B007B9 /* NSDate+Extended.m */; };
+		52E2501522A659A7007DF2FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52E2501422A659A7007DF2FC /* README.md */; };
+		52E28CD122C3D53500F6A3B8 /* RoundCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E28CD022C3D53500F6A3B8 /* RoundCornerButton.m */; };
+		52E28CD422C3D5B600F6A3B8 /* UIView+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E28CD322C3D5B600F6A3B8 /* UIView+Extended.m */; };
+		52E28CD722C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E28CD622C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.m */; };
+		52E28CDA22C3EDD000F6A3B8 /* CreateCompanyUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E28CD922C3EDD000F6A3B8 /* CreateCompanyUserViewController.m */; };
+		52F299C522C78C9F00037135 /* ConfirmAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F299C422C78C9F00037135 /* ConfirmAgreementViewController.m */; };
+		52F299CB22C79F1F00037135 /* ViewFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F299CA22C79F1F00037135 /* ViewFinderViewController.m */; };
+		52F6E7D222A66F8F00B84F5A /* UIViewController+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6E7D122A66F8F00B84F5A /* UIViewController+Extended.m */; };
+		52F6E7D522A676E800B84F5A /* NSString+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6E7D422A676E800B84F5A /* NSString+Extended.m */; };
+		5932D2B5212AA76900EDC6F2 /* CompanyUserFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2B4212AA76900EDC6F2 /* CompanyUserFormViewController.m */; };
+		5932D2B821307D8000EDC6F2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2B721307D8000EDC6F2 /* LoginViewController.m */; };
+		5932D2BB2130CF3900EDC6F2 /* ResetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2BA2130CF3900EDC6F2 /* ResetPwdViewController.m */; };
+		5932D2BE2130D0EF00EDC6F2 /* CompanyUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2BD2130D0EF00EDC6F2 /* CompanyUserInfoViewController.m */; };
+		5932D2C32130D40E00EDC6F2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2C22130D40E00EDC6F2 /* HomeViewController.m */; };
+		5932D2C62130D46A00EDC6F2 /* PractitionerFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2C52130D46A00EDC6F2 /* PractitionerFormViewController.m */; };
+		5932D2C92130D4D900EDC6F2 /* PractitionerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2C82130D4D900EDC6F2 /* PractitionerInfoViewController.m */; };
+		5932D2CD2130E3CB00EDC6F2 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5932D2CB2130E3CB00EDC6F2 /* ToastView.m */; };
+		59916B0E20FD061C0074E333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59916B0D20FD061C0074E333 /* AppDelegate.m */; };
+		59916B1620FD06220074E333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59916B1520FD06220074E333 /* Assets.xcassets */; };
+		59916B1C20FD06220074E333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59916B1B20FD06220074E333 /* main.m */; };
+		98552D0225772BF8009B5FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CF025772BF7009B5FE6 /* Main.storyboard */; };
+		98552D0325772BF8009B5FE6 /* CreatePractitioner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CF225772BF7009B5FE6 /* CreatePractitioner.storyboard */; };
+		98552D0425772BF8009B5FE6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CF425772BF7009B5FE6 /* Home.storyboard */; };
+		98552D0525772BF8009B5FE6 /* ForgotPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CF625772BF7009B5FE6 /* ForgotPassword.storyboard */; };
+		98552D0625772BF8009B5FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CF825772BF7009B5FE6 /* LaunchScreen.storyboard */; };
+		98552D0825772BF8009B5FE6 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CFC25772BF7009B5FE6 /* Auth.storyboard */; };
+		98552D0925772BF8009B5FE6 /* Compare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552CFE25772BF8009B5FE6 /* Compare.storyboard */; };
+		98552D0A25772BF8009B5FE6 /* CreateCompanyUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552D0025772BF8009B5FE6 /* CreateCompanyUser.storyboard */; };
+		98552D0F25772D0D009B5FE6 /* Capture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98552D0D25772D0D009B5FE6 /* Capture.storyboard */; };
+		98F6A6E22570CAA00044243D /* TreatmentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F6A6E12570CAA00044243D /* TreatmentTypeViewController.m */; };
+		B513559B215954220050AA07 /* ScheduleTreatmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B513559A215954220050AA07 /* ScheduleTreatmentViewController.m */; };
+		B52341F02147E7D500A9FBFA /* ClientProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52341EF2147E7D500A9FBFA /* ClientProfileViewController.m */; };
+		B534A9B0215A6E2100E4B5D7 /* SelectTreatmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B534A9AF215A6E2100E4B5D7 /* SelectTreatmentViewController.m */; };
+		B53EC77421415CA0006F3CD4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B53EC77321415CA0006F3CD4 /* Reachability.m */; };
+		B54992AC21426FCB00F76965 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992AB21426FCB00F76965 /* SettingsViewController.m */; };
+		B54992BD2142885800F76965 /* CreateClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992BC2142885800F76965 /* CreateClientViewController.m */; };
+		B54992C021428E4500F76965 /* SelectPractitionerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992BF21428E4500F76965 /* SelectPractitionerViewController.m */; };
+		B54992C32142D27000F76965 /* SelectClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992C22142D27000F76965 /* SelectClientViewController.m */; };
+		B54992C92143E1B900F76965 /* ConnectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992C82143E1B900F76965 /* ConnectDeviceViewController.m */; };
+		B54992E62143F68600F76965 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992DF2143F68500F76965 /* BLEDevice.m */; };
+		B54992E72143F68600F76965 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992E12143F68500F76965 /* BLEUtility.m */; };
+		B54992E82143F68600F76965 /* DFBlunoDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992E32143F68500F76965 /* DFBlunoDevice.m */; };
+		B54992E92143F68600F76965 /* DFBlunoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992E52143F68500F76965 /* DFBlunoManager.m */; };
+		B54992ED214535BD00F76965 /* SearchClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992EC214535BC00F76965 /* SearchClientViewController.m */; };
+		B54992F2214635CF00F76965 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54992F1214635CF00F76965 /* ScheduleViewController.m */; };
+		B5706DA12148419B00065100 /* ClientTreatmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5706DA02148419B00065100 /* ClientTreatmentViewController.m */; };
+		B5AB52912150B9E10093B5F0 /* SaveTreatmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AB52902150B9E10093B5F0 /* SaveTreatmentViewController.m */; };
+		B5AD9DC52149927B0039D213 /* AgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD9DC42149927B0039D213 /* AgreementViewController.m */; };
+		B5AD9DC8214A100D0039D213 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD9DC7214A100D0039D213 /* CaptureViewController.m */; };
+		B5AD9DCB214A532A0039D213 /* VideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD9DCA214A532A0039D213 /* VideoCaptureViewController.m */; };
+		B5AD9DE4214A6AF50039D213 /* BDVideoCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AD9DE2214A6AF50039D213 /* BDVideoCameraView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F3754A1238D30A100D185E4 /* CameraGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraGridView.h; sourceTree = "<group>"; };
+		3F3754A2238D30E600D185E4 /* CameraGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraGridView.m; sourceTree = "<group>"; };
+		527244E822C6218D0068E92A /* CreatePractitionerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePractitionerViewController.h; sourceTree = "<group>"; };
+		527244E922C6218D0068E92A /* CreatePractitionerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePractitionerViewController.m; sourceTree = "<group>"; };
+		527244EB22C621A30068E92A /* ConfirmPractitionerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmPractitionerViewController.h; sourceTree = "<group>"; };
+		527244EC22C621A30068E92A /* ConfirmPractitionerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmPractitionerViewController.m; sourceTree = "<group>"; };
+		5281FFC4227816C600DFB1B6 /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		5281FFC5227816C600DFB1B6 /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		528CB55E22AB910C00F4CE7C /* UIImageView+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extended.h"; sourceTree = "<group>"; };
+		528CB55F22AB910C00F4CE7C /* UIImageView+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extended.m"; sourceTree = "<group>"; };
+		528CB56522ABB92C00F4CE7C /* CompareImagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompareImagesViewController.h; sourceTree = "<group>"; };
+		528CB56622ABB92C00F4CE7C /* CompareImagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompareImagesViewController.m; sourceTree = "<group>"; };
+		528CB56822ABC4D500F4CE7C /* CompareNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompareNavigationController.h; sourceTree = "<group>"; };
+		528CB56922ABC4D500F4CE7C /* CompareNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompareNavigationController.m; sourceTree = "<group>"; };
+		528CB56B22ABD06700F4CE7C /* PinchImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchImageViewController.h; sourceTree = "<group>"; };
+		528CB56C22ABD06700F4CE7C /* PinchImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchImageViewController.m; sourceTree = "<group>"; };
+		5298389722BA6BA900963357 /* DFBlunoManager+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DFBlunoManager+Extended.h"; sourceTree = "<group>"; };
+		5298389822BA6BA900963357 /* DFBlunoManager+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DFBlunoManager+Extended.m"; sourceTree = "<group>"; };
+		5298389A22BA6E0200963357 /* NSData+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Extended.h"; sourceTree = "<group>"; };
+		5298389B22BA6E0200963357 /* NSData+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extended.m"; sourceTree = "<group>"; };
+		52C69AD122A7DF0B00A9B7CB /* RoundCornerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundCornerView.h; sourceTree = "<group>"; };
+		52C69AD222A7DF0B00A9B7CB /* RoundCornerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundCornerView.m; sourceTree = "<group>"; };
+		52DC13E922A7B64900C9FC71 /* HomeCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCaptureViewController.h; sourceTree = "<group>"; };
+		52DC13EA22A7B64900C9FC71 /* HomeCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCaptureViewController.m; sourceTree = "<group>"; };
+		52DC13ED22A7D42000C9FC71 /* RoundImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundImageView.h; sourceTree = "<group>"; };
+		52DC13EE22A7D42000C9FC71 /* RoundImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundImageView.m; sourceTree = "<group>"; };
+		52DFB9A322B3344F00B007B9 /* UIImage+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extended.h"; sourceTree = "<group>"; };
+		52DFB9A422B3344F00B007B9 /* UIImage+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extended.m"; sourceTree = "<group>"; };
+		52DFB9A622B340E300B007B9 /* NSDate+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extended.h"; sourceTree = "<group>"; };
+		52DFB9A722B340E300B007B9 /* NSDate+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extended.m"; sourceTree = "<group>"; };
+		52E2501422A659A7007DF2FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52E28CCF22C3D53500F6A3B8 /* RoundCornerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundCornerButton.h; sourceTree = "<group>"; };
+		52E28CD022C3D53500F6A3B8 /* RoundCornerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundCornerButton.m; sourceTree = "<group>"; };
+		52E28CD222C3D5B600F6A3B8 /* UIView+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extended.h"; sourceTree = "<group>"; };
+		52E28CD322C3D5B600F6A3B8 /* UIView+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extended.m"; sourceTree = "<group>"; };
+		52E28CD522C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmCompanyUserViewController.h; sourceTree = "<group>"; };
+		52E28CD622C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmCompanyUserViewController.m; sourceTree = "<group>"; };
+		52E28CD822C3EDD000F6A3B8 /* CreateCompanyUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateCompanyUserViewController.h; sourceTree = "<group>"; };
+		52E28CD922C3EDD000F6A3B8 /* CreateCompanyUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateCompanyUserViewController.m; sourceTree = "<group>"; };
+		52F299C322C78C9F00037135 /* ConfirmAgreementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmAgreementViewController.h; sourceTree = "<group>"; };
+		52F299C422C78C9F00037135 /* ConfirmAgreementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmAgreementViewController.m; sourceTree = "<group>"; };
+		52F299C922C79F1F00037135 /* ViewFinderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFinderViewController.h; sourceTree = "<group>"; };
+		52F299CA22C79F1F00037135 /* ViewFinderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewFinderViewController.m; sourceTree = "<group>"; };
+		52F6E7D022A66F8F00B84F5A /* UIViewController+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extended.h"; sourceTree = "<group>"; };
+		52F6E7D122A66F8F00B84F5A /* UIViewController+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extended.m"; sourceTree = "<group>"; };
+		52F6E7D322A676E800B84F5A /* NSString+Extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extended.h"; sourceTree = "<group>"; };
+		52F6E7D422A676E800B84F5A /* NSString+Extended.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extended.m"; sourceTree = "<group>"; };
+		5932D2B3212AA76900EDC6F2 /* CompanyUserFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyUserFormViewController.h; sourceTree = "<group>"; };
+		5932D2B4212AA76900EDC6F2 /* CompanyUserFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyUserFormViewController.m; sourceTree = "<group>"; };
+		5932D2B621307D8000EDC6F2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5932D2B721307D8000EDC6F2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5932D2B92130CF3900EDC6F2 /* ResetPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetPwdViewController.h; sourceTree = "<group>"; };
+		5932D2BA2130CF3900EDC6F2 /* ResetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetPwdViewController.m; sourceTree = "<group>"; };
+		5932D2BC2130D0EF00EDC6F2 /* CompanyUserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyUserInfoViewController.h; sourceTree = "<group>"; };
+		5932D2BD2130D0EF00EDC6F2 /* CompanyUserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyUserInfoViewController.m; sourceTree = "<group>"; };
+		5932D2C12130D40E00EDC6F2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5932D2C22130D40E00EDC6F2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5932D2C42130D46A00EDC6F2 /* PractitionerFormViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PractitionerFormViewController.h; sourceTree = "<group>"; };
+		5932D2C52130D46A00EDC6F2 /* PractitionerFormViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PractitionerFormViewController.m; sourceTree = "<group>"; };
+		5932D2C72130D4D900EDC6F2 /* PractitionerInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PractitionerInfoViewController.h; sourceTree = "<group>"; };
+		5932D2C82130D4D900EDC6F2 /* PractitionerInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PractitionerInfoViewController.m; sourceTree = "<group>"; };
+		5932D2CB2130E3CB00EDC6F2 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		5932D2CC2130E3CB00EDC6F2 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		59916B0920FD061C0074E333 /* Tech Face Pro Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Face Pro Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59916B0C20FD061C0074E333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59916B0D20FD061C0074E333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59916B1520FD06220074E333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59916B1A20FD06220074E333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59916B1B20FD06220074E333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A5453F04452C26A18A5BB1C /* libPods-Tech Face Pro Trial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tech Face Pro Trial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98552CF125772BF7009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98552CF325772BF7009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CreatePractitioner.storyboard; sourceTree = "<group>"; };
+		98552CF525772BF7009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		98552CF725772BF7009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ForgotPassword.storyboard; sourceTree = "<group>"; };
+		98552CF925772BF7009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98552CFD25772BF7009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
+		98552CFF25772BF8009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Compare.storyboard; sourceTree = "<group>"; };
+		98552D0125772BF8009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CreateCompanyUser.storyboard; sourceTree = "<group>"; };
+		98552D0E25772D0D009B5FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Capture.storyboard; sourceTree = "<group>"; };
+		98F6A6E02570CAA00044243D /* TreatmentTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreatmentTypeViewController.h; sourceTree = "<group>"; };
+		98F6A6E12570CAA00044243D /* TreatmentTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreatmentTypeViewController.m; sourceTree = "<group>"; };
+		9946CBDD19345232ADCBF26E /* Pods-Tech Face Pro Trial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Face Pro Trial.release.xcconfig"; path = "Target Support Files/Pods-Tech Face Pro Trial/Pods-Tech Face Pro Trial.release.xcconfig"; sourceTree = "<group>"; };
+		A91A7113E80B4363DA1E2575 /* Pods-Tech Face Pro Trial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Face Pro Trial.debug.xcconfig"; path = "Target Support Files/Pods-Tech Face Pro Trial/Pods-Tech Face Pro Trial.debug.xcconfig"; sourceTree = "<group>"; };
+		B5135599215954220050AA07 /* ScheduleTreatmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleTreatmentViewController.h; sourceTree = "<group>"; };
+		B513559A215954220050AA07 /* ScheduleTreatmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleTreatmentViewController.m; sourceTree = "<group>"; };
+		B52341EE2147E7D500A9FBFA /* ClientProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientProfileViewController.h; sourceTree = "<group>"; };
+		B52341EF2147E7D500A9FBFA /* ClientProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientProfileViewController.m; sourceTree = "<group>"; };
+		B534A9AE215A6E2100E4B5D7 /* SelectTreatmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectTreatmentViewController.h; sourceTree = "<group>"; };
+		B534A9AF215A6E2100E4B5D7 /* SelectTreatmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTreatmentViewController.m; sourceTree = "<group>"; };
+		B53EC77221415CA0006F3CD4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B53EC77321415CA0006F3CD4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B54992AA21426FCB00F76965 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B54992AB21426FCB00F76965 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B54992BB2142885800F76965 /* CreateClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateClientViewController.h; sourceTree = "<group>"; };
+		B54992BC2142885800F76965 /* CreateClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateClientViewController.m; sourceTree = "<group>"; };
+		B54992BE21428E4500F76965 /* SelectPractitionerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectPractitionerViewController.h; sourceTree = "<group>"; };
+		B54992BF21428E4500F76965 /* SelectPractitionerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectPractitionerViewController.m; sourceTree = "<group>"; };
+		B54992C12142D27000F76965 /* SelectClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectClientViewController.h; sourceTree = "<group>"; };
+		B54992C22142D27000F76965 /* SelectClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectClientViewController.m; sourceTree = "<group>"; };
+		B54992C72143E1B900F76965 /* ConnectDeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectDeviceViewController.h; sourceTree = "<group>"; };
+		B54992C82143E1B900F76965 /* ConnectDeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectDeviceViewController.m; sourceTree = "<group>"; };
+		B54992DE2143F68500F76965 /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		B54992DF2143F68500F76965 /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		B54992E02143F68500F76965 /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		B54992E12143F68500F76965 /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		B54992E22143F68500F76965 /* DFBlunoDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBlunoDevice.h; sourceTree = "<group>"; };
+		B54992E32143F68500F76965 /* DFBlunoDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBlunoDevice.m; sourceTree = "<group>"; };
+		B54992E42143F68500F76965 /* DFBlunoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBlunoManager.h; sourceTree = "<group>"; };
+		B54992E52143F68500F76965 /* DFBlunoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBlunoManager.m; sourceTree = "<group>"; };
+		B54992EB214535BC00F76965 /* SearchClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchClientViewController.h; sourceTree = "<group>"; };
+		B54992EC214535BC00F76965 /* SearchClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchClientViewController.m; sourceTree = "<group>"; };
+		B54992F0214635CF00F76965 /* ScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		B54992F1214635CF00F76965 /* ScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		B5706D9F2148419B00065100 /* ClientTreatmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientTreatmentViewController.h; sourceTree = "<group>"; };
+		B5706DA02148419B00065100 /* ClientTreatmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientTreatmentViewController.m; sourceTree = "<group>"; };
+		B5AB528F2150B9E10093B5F0 /* SaveTreatmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveTreatmentViewController.h; sourceTree = "<group>"; };
+		B5AB52902150B9E10093B5F0 /* SaveTreatmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveTreatmentViewController.m; sourceTree = "<group>"; };
+		B5AD9DB621495A720039D213 /* BugfenderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BugfenderSDK.framework; path = "../../../../../Users/vishalpatel/Downloads/BugfenderSDK-iOS-master/BugfenderSDK.framework"; sourceTree = "<group>"; };
+		B5AD9DBB21495AEE0039D213 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B5AD9DBD21495AF30039D213 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B5AD9DBF21495AFF0039D213 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B5AD9DC121495B1C0039D213 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B5AD9DC32149927B0039D213 /* AgreementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgreementViewController.h; sourceTree = "<group>"; };
+		B5AD9DC42149927B0039D213 /* AgreementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgreementViewController.m; sourceTree = "<group>"; };
+		B5AD9DC6214A100D0039D213 /* CaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		B5AD9DC7214A100D0039D213 /* CaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		B5AD9DC9214A532A0039D213 /* VideoCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCaptureViewController.h; sourceTree = "<group>"; };
+		B5AD9DCA214A532A0039D213 /* VideoCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureViewController.m; sourceTree = "<group>"; };
+		B5AD9DE2214A6AF50039D213 /* BDVideoCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDVideoCameraView.m; sourceTree = "<group>"; };
+		B5AD9DE3214A6AF50039D213 /* BDVideoCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDVideoCameraView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59916B0620FD061C0074E333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CD84E2A48C9419680F1D23 /* libPods-Tech Face Pro Trial.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39514E42997447399294B1FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A91A7113E80B4363DA1E2575 /* Pods-Tech Face Pro Trial.debug.xcconfig */,
+				9946CBDD19345232ADCBF26E /* Pods-Tech Face Pro Trial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52382AA822C5A80100499616 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				B54992BB2142885800F76965 /* CreateClientViewController.h */,
+				B54992BC2142885800F76965 /* CreateClientViewController.m */,
+				B54992C12142D27000F76965 /* SelectClientViewController.h */,
+				B54992C22142D27000F76965 /* SelectClientViewController.m */,
+				B54992BE21428E4500F76965 /* SelectPractitionerViewController.h */,
+				B54992BF21428E4500F76965 /* SelectPractitionerViewController.m */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		5281FFB5227809E600DFB1B6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				98552D0D25772D0D009B5FE6 /* Capture.storyboard */,
+				98552CFC25772BF7009B5FE6 /* Auth.storyboard */,
+				98552CFE25772BF8009B5FE6 /* Compare.storyboard */,
+				98552D0025772BF8009B5FE6 /* CreateCompanyUser.storyboard */,
+				98552CF225772BF7009B5FE6 /* CreatePractitioner.storyboard */,
+				98552CF625772BF7009B5FE6 /* ForgotPassword.storyboard */,
+				98552CF425772BF7009B5FE6 /* Home.storyboard */,
+				98552CF825772BF7009B5FE6 /* LaunchScreen.storyboard */,
+				98552CF025772BF7009B5FE6 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		528CB56422ABB90900F4CE7C /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				528CB56822ABC4D500F4CE7C /* CompareNavigationController.h */,
+				528CB56922ABC4D500F4CE7C /* CompareNavigationController.m */,
+				528CB56522ABB92C00F4CE7C /* CompareImagesViewController.h */,
+				528CB56622ABB92C00F4CE7C /* CompareImagesViewController.m */,
+				528CB56B22ABD06700F4CE7C /* PinchImageViewController.h */,
+				528CB56C22ABD06700F4CE7C /* PinchImageViewController.m */,
+			);
+			path = Compare;
+			sourceTree = "<group>";
+		};
+		52DC13E422A7A71A00C9FC71 /* Company Users */ = {
+			isa = PBXGroup;
+			children = (
+				52E28CD822C3EDD000F6A3B8 /* CreateCompanyUserViewController.h */,
+				52E28CD922C3EDD000F6A3B8 /* CreateCompanyUserViewController.m */,
+				5932D2B3212AA76900EDC6F2 /* CompanyUserFormViewController.h */,
+				5932D2B4212AA76900EDC6F2 /* CompanyUserFormViewController.m */,
+				52E28CD522C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.h */,
+				52E28CD622C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.m */,
+				5932D2BC2130D0EF00EDC6F2 /* CompanyUserInfoViewController.h */,
+				5932D2BD2130D0EF00EDC6F2 /* CompanyUserInfoViewController.m */,
+			);
+			path = "Company Users";
+			sourceTree = "<group>";
+		};
+		52DC13E522A7A77200C9FC71 /* Practitioners */ = {
+			isa = PBXGroup;
+			children = (
+				527244E822C6218D0068E92A /* CreatePractitionerViewController.h */,
+				527244E922C6218D0068E92A /* CreatePractitionerViewController.m */,
+				5932D2C42130D46A00EDC6F2 /* PractitionerFormViewController.h */,
+				5932D2C52130D46A00EDC6F2 /* PractitionerFormViewController.m */,
+				527244EB22C621A30068E92A /* ConfirmPractitionerViewController.h */,
+				527244EC22C621A30068E92A /* ConfirmPractitionerViewController.m */,
+				5932D2C72130D4D900EDC6F2 /* PractitionerInfoViewController.h */,
+				5932D2C82130D4D900EDC6F2 /* PractitionerInfoViewController.m */,
+			);
+			path = Practitioners;
+			sourceTree = "<group>";
+		};
+		52DC13E622A7A79C00C9FC71 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B53EC77221415CA0006F3CD4 /* Reachability.h */,
+				B53EC77321415CA0006F3CD4 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		52DC13E722A7A7AD00C9FC71 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				5932D2CC2130E3CB00EDC6F2 /* ToastView.h */,
+				5932D2CB2130E3CB00EDC6F2 /* ToastView.m */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		52DC13E822A7A7CC00C9FC71 /* Extended */ = {
+			isa = PBXGroup;
+			children = (
+				5298389722BA6BA900963357 /* DFBlunoManager+Extended.h */,
+				5298389822BA6BA900963357 /* DFBlunoManager+Extended.m */,
+				5298389A22BA6E0200963357 /* NSData+Extended.h */,
+				5298389B22BA6E0200963357 /* NSData+Extended.m */,
+				52DFB9A622B340E300B007B9 /* NSDate+Extended.h */,
+				52DFB9A722B340E300B007B9 /* NSDate+Extended.m */,
+				52F6E7D322A676E800B84F5A /* NSString+Extended.h */,
+				52F6E7D422A676E800B84F5A /* NSString+Extended.m */,
+				52DFB9A322B3344F00B007B9 /* UIImage+Extended.h */,
+				52DFB9A422B3344F00B007B9 /* UIImage+Extended.m */,
+				528CB55E22AB910C00F4CE7C /* UIImageView+Extended.h */,
+				528CB55F22AB910C00F4CE7C /* UIImageView+Extended.m */,
+				52E28CD222C3D5B600F6A3B8 /* UIView+Extended.h */,
+				52E28CD322C3D5B600F6A3B8 /* UIView+Extended.m */,
+				52F6E7D022A66F8F00B84F5A /* UIViewController+Extended.h */,
+				52F6E7D122A66F8F00B84F5A /* UIViewController+Extended.m */,
+			);
+			path = Extended;
+			sourceTree = "<group>";
+		};
+		52DC13EC22A7D40700C9FC71 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				52DC13ED22A7D42000C9FC71 /* RoundImageView.h */,
+				52DC13EE22A7D42000C9FC71 /* RoundImageView.m */,
+				52C69AD122A7DF0B00A9B7CB /* RoundCornerView.h */,
+				52C69AD222A7DF0B00A9B7CB /* RoundCornerView.m */,
+				52E28CCF22C3D53500F6A3B8 /* RoundCornerButton.h */,
+				52E28CD022C3D53500F6A3B8 /* RoundCornerButton.m */,
+				3F3754A1238D30A100D185E4 /* CameraGridView.h */,
+				3F3754A2238D30E600D185E4 /* CameraGridView.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		5932D2BF2130D39300EDC6F2 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				5932D2B621307D8000EDC6F2 /* LoginViewController.h */,
+				5932D2B721307D8000EDC6F2 /* LoginViewController.m */,
+				5932D2B92130CF3900EDC6F2 /* ResetPwdViewController.h */,
+				5932D2BA2130CF3900EDC6F2 /* ResetPwdViewController.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		5932D2C02130D3FA00EDC6F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5932D2C12130D40E00EDC6F2 /* HomeViewController.h */,
+				5932D2C22130D40E00EDC6F2 /* HomeViewController.m */,
+				B54992AA21426FCB00F76965 /* SettingsViewController.h */,
+				B54992AB21426FCB00F76965 /* SettingsViewController.m */,
+				52DC13E922A7B64900C9FC71 /* HomeCaptureViewController.h */,
+				52DC13EA22A7B64900C9FC71 /* HomeCaptureViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5932D2CA2130E30900EDC6F2 /* ImportClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD9DD0214A69F90039D213 /* BDCamera */,
+				B54992DC2143F68500F76965 /* Bluno */,
+				52DC13E622A7A79C00C9FC71 /* Reachability */,
+				52DC13E722A7A7AD00C9FC71 /* ToastView */,
+			);
+			path = ImportClasses;
+			sourceTree = "<group>";
+		};
+		597A1A332137B57800694CB3 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				98F6A6E02570CAA00044243D /* TreatmentTypeViewController.h */,
+				98F6A6E12570CAA00044243D /* TreatmentTypeViewController.m */,
+				B5AD9DC32149927B0039D213 /* AgreementViewController.h */,
+				B5AD9DC42149927B0039D213 /* AgreementViewController.m */,
+				52F299C322C78C9F00037135 /* ConfirmAgreementViewController.h */,
+				52F299C422C78C9F00037135 /* ConfirmAgreementViewController.m */,
+				B5AD9DC6214A100D0039D213 /* CaptureViewController.h */,
+				B5AD9DC7214A100D0039D213 /* CaptureViewController.m */,
+				B54992C72143E1B900F76965 /* ConnectDeviceViewController.h */,
+				B54992C82143E1B900F76965 /* ConnectDeviceViewController.m */,
+				52F299C922C79F1F00037135 /* ViewFinderViewController.h */,
+				52F299CA22C79F1F00037135 /* ViewFinderViewController.m */,
+				B5AD9DC9214A532A0039D213 /* VideoCaptureViewController.h */,
+				B5AD9DCA214A532A0039D213 /* VideoCaptureViewController.m */,
+				B5AB528F2150B9E10093B5F0 /* SaveTreatmentViewController.h */,
+				B5AB52902150B9E10093B5F0 /* SaveTreatmentViewController.m */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		59916B0020FD061B0074E333 = {
+			isa = PBXGroup;
+			children = (
+				52E2501422A659A7007DF2FC /* README.md */,
+				59916B0B20FD061C0074E333 /* Tech Face Pro Trial */,
+				59916B0A20FD061C0074E333 /* Products */,
+				B5AD9DB521495A720039D213 /* Frameworks */,
+				39514E42997447399294B1FC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		59916B0A20FD061C0074E333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59916B0920FD061C0074E333 /* Tech Face Pro Trial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59916B0B20FD061C0074E333 /* Tech Face Pro Trial */ = {
+			isa = PBXGroup;
+			children = (
+				59916B1A20FD06220074E333 /* Info.plist */,
+				59916B1520FD06220074E333 /* Assets.xcassets */,
+				5281FFB5227809E600DFB1B6 /* Storyboards */,
+				59916B1B20FD06220074E333 /* main.m */,
+				5281FFC4227816C600DFB1B6 /* Server.h */,
+				5281FFC5227816C600DFB1B6 /* Server.m */,
+				59916B0C20FD061C0074E333 /* AppDelegate.h */,
+				59916B0D20FD061C0074E333 /* AppDelegate.m */,
+				980FD50E24D8E358008CFBA7 /* Common */,
+				5932D2BF2130D39300EDC6F2 /* Auth */,
+				5932D2C02130D3FA00EDC6F2 /* Home */,
+				597A1A332137B57800694CB3 /* Capture */,
+				52DC13E422A7A71A00C9FC71 /* Company Users */,
+				52DC13E522A7A77200C9FC71 /* Practitioners */,
+				52382AA822C5A80100499616 /* Clients */,
+				B54992EA2145359400F76965 /* Search */,
+				B54992EF214635AF00F76965 /* Schedules */,
+				528CB56422ABB90900F4CE7C /* Compare */,
+				52DC13E822A7A7CC00C9FC71 /* Extended */,
+				52DC13EC22A7D40700C9FC71 /* Widgets */,
+				5932D2CA2130E30900EDC6F2 /* ImportClasses */,
+			);
+			path = "Tech Face Pro Trial";
+			sourceTree = "<group>";
+		};
+		980FD50E24D8E358008CFBA7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B54992DC2143F68500F76965 /* Bluno */ = {
+			isa = PBXGroup;
+			children = (
+				B54992DD2143F68500F76965 /* Core */,
+				B54992E22143F68500F76965 /* DFBlunoDevice.h */,
+				B54992E32143F68500F76965 /* DFBlunoDevice.m */,
+				B54992E42143F68500F76965 /* DFBlunoManager.h */,
+				B54992E52143F68500F76965 /* DFBlunoManager.m */,
+			);
+			path = Bluno;
+			sourceTree = "<group>";
+		};
+		B54992DD2143F68500F76965 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B54992DE2143F68500F76965 /* BLEDevice.h */,
+				B54992DF2143F68500F76965 /* BLEDevice.m */,
+				B54992E02143F68500F76965 /* BLEUtility.h */,
+				B54992E12143F68500F76965 /* BLEUtility.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B54992EA2145359400F76965 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B54992EB214535BC00F76965 /* SearchClientViewController.h */,
+				B54992EC214535BC00F76965 /* SearchClientViewController.m */,
+				B52341EE2147E7D500A9FBFA /* ClientProfileViewController.h */,
+				B52341EF2147E7D500A9FBFA /* ClientProfileViewController.m */,
+				B5706D9F2148419B00065100 /* ClientTreatmentViewController.h */,
+				B5706DA02148419B00065100 /* ClientTreatmentViewController.m */,
+				B534A9AE215A6E2100E4B5D7 /* SelectTreatmentViewController.h */,
+				B534A9AF215A6E2100E4B5D7 /* SelectTreatmentViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B54992EF214635AF00F76965 /* Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				B54992F0214635CF00F76965 /* ScheduleViewController.h */,
+				B54992F1214635CF00F76965 /* ScheduleViewController.m */,
+				B5135599215954220050AA07 /* ScheduleTreatmentViewController.h */,
+				B513559A215954220050AA07 /* ScheduleTreatmentViewController.m */,
+			);
+			path = Schedules;
+			sourceTree = "<group>";
+		};
+		B5AD9DB521495A720039D213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD9DC121495B1C0039D213 /* libc++.tbd */,
+				B5AD9DBF21495AFF0039D213 /* Security.framework */,
+				B5AD9DBD21495AF30039D213 /* MobileCoreServices.framework */,
+				B5AD9DBB21495AEE0039D213 /* SystemConfiguration.framework */,
+				B5AD9DB621495A720039D213 /* BugfenderSDK.framework */,
+				5A5453F04452C26A18A5BB1C /* libPods-Tech Face Pro Trial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5AD9DD0214A69F90039D213 /* BDCamera */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD9DE3214A6AF50039D213 /* BDVideoCameraView.h */,
+				B5AD9DE2214A6AF50039D213 /* BDVideoCameraView.m */,
+			);
+			path = BDCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59916B0820FD061C0074E333 /* Tech Face Pro Trial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59916B3520FD06230074E333 /* Build configuration list for PBXNativeTarget "Tech Face Pro Trial" */;
+			buildPhases = (
+				8819F2BC47A8CEED3D26197A /* [CP] Check Pods Manifest.lock */,
+				59916B0520FD061C0074E333 /* Sources */,
+				59916B0620FD061C0074E333 /* Frameworks */,
+				59916B0720FD061C0074E333 /* Resources */,
+				A86E6F402C8A6E4A824CA432 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tech Face Pro Trial";
+			productName = "Tech Face";
+			productReference = 59916B0920FD061C0074E333 /* Tech Face Pro Trial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59916B0120FD061B0074E333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = MedEXO;
+				TargetAttributes = {
+					59916B0820FD061C0074E333 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 59916B0420FD061B0074E333 /* Build configuration list for PBXProject "Tech Face Pro Trial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59916B0020FD061B0074E333;
+			productRefGroup = 59916B0A20FD061C0074E333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59916B0820FD061C0074E333 /* Tech Face Pro Trial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59916B0720FD061C0074E333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98552D0825772BF8009B5FE6 /* Auth.storyboard in Resources */,
+				98552D0325772BF8009B5FE6 /* CreatePractitioner.storyboard in Resources */,
+				98552D0F25772D0D009B5FE6 /* Capture.storyboard in Resources */,
+				98552D0425772BF8009B5FE6 /* Home.storyboard in Resources */,
+				98552D0225772BF8009B5FE6 /* Main.storyboard in Resources */,
+				98552D0925772BF8009B5FE6 /* Compare.storyboard in Resources */,
+				59916B1620FD06220074E333 /* Assets.xcassets in Resources */,
+				98552D0625772BF8009B5FE6 /* LaunchScreen.storyboard in Resources */,
+				98552D0A25772BF8009B5FE6 /* CreateCompanyUser.storyboard in Resources */,
+				98552D0525772BF8009B5FE6 /* ForgotPassword.storyboard in Resources */,
+				52E2501522A659A7007DF2FC /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8819F2BC47A8CEED3D26197A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tech Face Pro Trial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86E6F402C8A6E4A824CA432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tech Face Pro Trial/Pods-Tech Face Pro Trial-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DownPicker/DownPicker.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DownPicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tech Face Pro Trial/Pods-Tech Face Pro Trial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59916B0520FD061C0074E333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5932D2BB2130CF3900EDC6F2 /* ResetPwdViewController.m in Sources */,
+				52F299C522C78C9F00037135 /* ConfirmAgreementViewController.m in Sources */,
+				52F6E7D522A676E800B84F5A /* NSString+Extended.m in Sources */,
+				52DFB9A822B340E300B007B9 /* NSDate+Extended.m in Sources */,
+				B54992E62143F68600F76965 /* BLEDevice.m in Sources */,
+				528CB56A22ABC4D500F4CE7C /* CompareNavigationController.m in Sources */,
+				B54992E82143F68600F76965 /* DFBlunoDevice.m in Sources */,
+				5932D2BE2130D0EF00EDC6F2 /* CompanyUserInfoViewController.m in Sources */,
+				52E28CD422C3D5B600F6A3B8 /* UIView+Extended.m in Sources */,
+				59916B1C20FD06220074E333 /* main.m in Sources */,
+				5281FFC6227816C600DFB1B6 /* Server.m in Sources */,
+				5932D2CD2130E3CB00EDC6F2 /* ToastView.m in Sources */,
+				52E28CD722C3EC3E00F6A3B8 /* ConfirmCompanyUserViewController.m in Sources */,
+				B54992E72143F68600F76965 /* BLEUtility.m in Sources */,
+				B54992BD2142885800F76965 /* CreateClientViewController.m in Sources */,
+				52E28CD122C3D53500F6A3B8 /* RoundCornerButton.m in Sources */,
+				5932D2B5212AA76900EDC6F2 /* CompanyUserFormViewController.m in Sources */,
+				B5AD9DE4214A6AF50039D213 /* BDVideoCameraView.m in Sources */,
+				52F6E7D222A66F8F00B84F5A /* UIViewController+Extended.m in Sources */,
+				527244EA22C6218D0068E92A /* CreatePractitionerViewController.m in Sources */,
+				528CB56D22ABD06700F4CE7C /* PinchImageViewController.m in Sources */,
+				52DC13EF22A7D42000C9FC71 /* RoundImageView.m in Sources */,
+				5298389C22BA6E0200963357 /* NSData+Extended.m in Sources */,
+				52DC13EB22A7B64900C9FC71 /* HomeCaptureViewController.m in Sources */,
+				5932D2C92130D4D900EDC6F2 /* PractitionerInfoViewController.m in Sources */,
+				B54992C92143E1B900F76965 /* ConnectDeviceViewController.m in Sources */,
+				B52341F02147E7D500A9FBFA /* ClientProfileViewController.m in Sources */,
+				98F6A6E22570CAA00044243D /* TreatmentTypeViewController.m in Sources */,
+				52E28CDA22C3EDD000F6A3B8 /* CreateCompanyUserViewController.m in Sources */,
+				B54992C32142D27000F76965 /* SelectClientViewController.m in Sources */,
+				B54992E92143F68600F76965 /* DFBlunoManager.m in Sources */,
+				52DFB9A522B3344F00B007B9 /* UIImage+Extended.m in Sources */,
+				B534A9B0215A6E2100E4B5D7 /* SelectTreatmentViewController.m in Sources */,
+				528CB56722ABB92C00F4CE7C /* CompareImagesViewController.m in Sources */,
+				B53EC77421415CA0006F3CD4 /* Reachability.m in Sources */,
+				B54992ED214535BD00F76965 /* SearchClientViewController.m in Sources */,
+				528CB56022AB910C00F4CE7C /* UIImageView+Extended.m in Sources */,
+				52C69AD322A7DF0B00A9B7CB /* RoundCornerView.m in Sources */,
+				527244ED22C621A30068E92A /* ConfirmPractitionerViewController.m in Sources */,
+				B5AD9DC52149927B0039D213 /* AgreementViewController.m in Sources */,
+				B5AB52912150B9E10093B5F0 /* SaveTreatmentViewController.m in Sources */,
+				59916B0E20FD061C0074E333 /* AppDelegate.m in Sources */,
+				B5AD9DCB214A532A0039D213 /* VideoCaptureViewController.m in Sources */,
+				B54992C021428E4500F76965 /* SelectPractitionerViewController.m in Sources */,
+				B513559B215954220050AA07 /* ScheduleTreatmentViewController.m in Sources */,
+				B54992AC21426FCB00F76965 /* SettingsViewController.m in Sources */,
+				5298389922BA6BA900963357 /* DFBlunoManager+Extended.m in Sources */,
+				5932D2C62130D46A00EDC6F2 /* PractitionerFormViewController.m in Sources */,
+				B54992F2214635CF00F76965 /* ScheduleViewController.m in Sources */,
+				B5AD9DC8214A100D0039D213 /* CaptureViewController.m in Sources */,
+				3F3754A3238D30E600D185E4 /* CameraGridView.m in Sources */,
+				B5706DA12148419B00065100 /* ClientTreatmentViewController.m in Sources */,
+				5932D2B821307D8000EDC6F2 /* LoginViewController.m in Sources */,
+				52F299CB22C79F1F00037135 /* ViewFinderViewController.m in Sources */,
+				5932D2C32130D40E00EDC6F2 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98552CF025772BF7009B5FE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CF125772BF7009B5FE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98552CF225772BF7009B5FE6 /* CreatePractitioner.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CF325772BF7009B5FE6 /* Base */,
+			);
+			name = CreatePractitioner.storyboard;
+			sourceTree = "<group>";
+		};
+		98552CF425772BF7009B5FE6 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CF525772BF7009B5FE6 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		98552CF625772BF7009B5FE6 /* ForgotPassword.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CF725772BF7009B5FE6 /* Base */,
+			);
+			name = ForgotPassword.storyboard;
+			sourceTree = "<group>";
+		};
+		98552CF825772BF7009B5FE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CF925772BF7009B5FE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		98552CFC25772BF7009B5FE6 /* Auth.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CFD25772BF7009B5FE6 /* Base */,
+			);
+			name = Auth.storyboard;
+			sourceTree = "<group>";
+		};
+		98552CFE25772BF8009B5FE6 /* Compare.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552CFF25772BF8009B5FE6 /* Base */,
+			);
+			name = Compare.storyboard;
+			sourceTree = "<group>";
+		};
+		98552D0025772BF8009B5FE6 /* CreateCompanyUser.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552D0125772BF8009B5FE6 /* Base */,
+			);
+			name = CreateCompanyUser.storyboard;
+			sourceTree = "<group>";
+		};
+		98552D0D25772D0D009B5FE6 /* Capture.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98552D0E25772D0D009B5FE6 /* Base */,
+			);
+			name = Capture.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59916B3320FD06230074E333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59916B3420FD06230074E333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59916B3620FD06230074E333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91A7113E80B4363DA1E2575 /* Pods-Tech Face Pro Trial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LIBKERN_RETAIN_COUNT = YES;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = PX6D392Z9U;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Tech Face Pro Trial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodunion.TechfaceProTrial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59916B3720FD06230074E333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9946CBDD19345232ADCBF26E /* Pods-Tech Face Pro Trial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LIBKERN_RETAIN_COUNT = YES;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = PX6D392Z9U;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Tech Face Pro Trial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodunion.TechfaceProTrial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59916B0420FD061B0074E333 /* Build configuration list for PBXProject "Tech Face Pro Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59916B3320FD06230074E333 /* Debug */,
+				59916B3420FD06230074E333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59916B3520FD06230074E333 /* Build configuration list for PBXNativeTarget "Tech Face Pro Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59916B3620FD06230074E333 /* Debug */,
+				59916B3720FD06230074E333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59916B0120FD061B0074E333 /* Project object */;
+}

@@ -126,7 +126,7 @@
  */
 - (void)stopRecording;
 
-/* 
+/*
  Stop capturing
  */
 - (void)stopCameraCapture;
@@ -142,3 +142,4 @@
 - (void)rotateCamera;
 
 @end
+

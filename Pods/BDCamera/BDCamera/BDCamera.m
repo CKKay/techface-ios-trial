@@ -1,3 +1,4 @@
+
 //
 //  BDCamera.m
 //
@@ -137,27 +138,27 @@
 - (AVCaptureConnection *)videoCaptureConnection
 {
     for (AVCaptureConnection *connection in [self.fileOutput connections] ) {
-		for (AVCaptureInputPort *port in [connection inputPorts] ) {
-			if ([[port mediaType] isEqual:AVMediaTypeVideo] ) {
-				return connection;
-			}
-		}
-	}
+        for (AVCaptureInputPort *port in [connection inputPorts] ) {
+            if ([[port mediaType] isEqual:AVMediaTypeVideo] ) {
+                return connection;
+            }
+        }
+    }
     return nil;
 }
 
 #pragma mark - Rotating Camera -
 + (BOOL)isFrontFacingCameraPresent
 {
-	NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-	
-	for (AVCaptureDevice *device in devices)
-	{
-		if ([device position] == AVCaptureDevicePositionFront)
-			return YES;
-	}
-	
-	return NO;
+    NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    
+    for (AVCaptureDevice *device in devices)
+    {
+        if ([device position] == AVCaptureDevicePositionFront)
+            return YES;
+    }
+    
+    return NO;
 }
 
 - (BOOL)isFrontFacingCameraPresent
@@ -167,9 +168,9 @@
 
 - (void)rotateCamera
 {
-	if (self.isFrontFacingCameraPresent == NO)
-		return;
-	
+    if (self.isFrontFacingCameraPresent == NO)
+        return;
+    
     NSError *error;
     AVCaptureDeviceInput *newVideoInput;
     AVCaptureDevicePosition currentCameraPosition = [self.videoInput.device position];
@@ -185,13 +186,13 @@
     
     AVCaptureDevice *backFacingCamera = nil;
     NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-	for (AVCaptureDevice *device in devices)
-	{
-		if ([device position] == currentCameraPosition)
-		{
-			backFacingCamera = device;
-		}
-	}
+    for (AVCaptureDevice *device in devices)
+    {
+        if ([device position] == currentCameraPosition)
+        {
+            backFacingCamera = device;
+        }
+    }
     newVideoInput = [[AVCaptureDeviceInput alloc] initWithDevice:backFacingCamera error:&error];
     
     if (newVideoInput != nil)
@@ -228,9 +229,9 @@
 - (void)startCameraCapture
 {
     if (![self.captureSession isRunning])
-	{
-		[self.captureSession startRunning];
-	};
+    {
+        [self.captureSession startRunning];
+    };
 }
 
 - (void)setVideoGravity:(NSString *)videoGravity
