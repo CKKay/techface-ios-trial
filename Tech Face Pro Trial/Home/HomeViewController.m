@@ -214,7 +214,7 @@ UIRefreshControl *refreshControl_pract;
 -(void) updateVersion{
 
     UIApplication *application = [UIApplication sharedApplication];
-    NSURL *URL = [NSURL URLWithString:@"itms-apps://itunes.apple.com/us/app/apple-store/1554967792?mt=8"];
+    NSURL *URL = [NSURL URLWithString:@"itms-apps://itunes.apple.com/us/app/apple-store/id1554967792?mt=8"];
     [application openURL:URL options:@{} completionHandler:^(BOOL success) {
         if (success) {
             NSLog(@"Opened url");

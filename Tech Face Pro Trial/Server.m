@@ -17,7 +17,7 @@
 #ifdef SERVER_HEROKU
 		url = [NSURL URLWithString:@"https://techface.herokuapp.com/"];
 #else
-		url = [NSURL URLWithString:@"http://systemuat.techfacepro.com:8080/"];
+		url = [NSURL URLWithString:@"http://system.techfacepro.com:8080/"];
 #endif
 	});
 	return url;
@@ -28,7 +28,7 @@
     static NSURL *url;
     static dispatch_once_t once;
     dispatch_once(&once, ^{
-        url = [NSURL URLWithString:@"http://systemuat.techfacepro.com/"];
+        url = [NSURL URLWithString:@"http://system.techfacepro.com/"];
     });
     return url;
 }
